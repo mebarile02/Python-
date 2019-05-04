@@ -1,5 +1,5 @@
 """
-itflag.py
+greenlandflag.py
 
 Draw the flag of Greenland in color on a tkinter Canvas widget.
 
