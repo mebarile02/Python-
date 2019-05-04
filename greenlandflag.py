@@ -7,13 +7,13 @@ Draw the flag of Greenland in color on a tkinter Canvas widget.
 
 import tkinter
 
-stripeHeight = 6*50
+stripeHeight = 6 * 50
 
 root = tkinter.Tk()
 root.title("Flag of Greenland")
 
-height = 2*stripeHeight
-width = int(height*3/2)  # Aspect ratio 2:3 according to Wiki
+height = 2 * stripeHeight
+width = int(height * 3/2)  # Aspect ratio 2:3 according to Wiki
 root.geometry(f"{width}x{height}")
 
 """
@@ -26,9 +26,9 @@ canvas.create_rectangle(0, 0, width, height/2, width = 0, fill = "white")
 
 canvas.pack(expand = tkinter.YES, fill = "both")
 
-xCenter = (7/18)*width
+xCenter = width * 7/18
 yCenter = height/2
-radius = 0.5*(8/18)*width
+radius = width * 0.5 * 8/18
 
 x0 = xCenter - radius
 y0 = yCenter + radius
